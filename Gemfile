@@ -30,6 +30,7 @@ gem 'haml', '~> 5.0'
 gem 'simple_form', '~> 4.0'
 gem 'bootstrap-sass', '~> 3.3'
 gem 'devise', '~> 4.5'
+gem 'paperclip', '~> 6.1'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
