@@ -31,6 +31,7 @@ gem 'simple_form', '~> 4.0'
 gem 'bootstrap-sass', '~> 3.3'
 gem 'devise', '~> 4.5'
 gem 'paperclip', '~> 6.1'
+gem 'masonry-rails', '~> 0.2.4'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
