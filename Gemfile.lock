@@ -42,6 +42,7 @@ GEM
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
+    acts_as_votable (0.11.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
     archive-zip (0.11.0)
@@ -100,6 +101,12 @@ GEM
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
       multi_json (>= 1.2)
+    jquery-turbolinks (2.1.0)
+      railties (>= 3.1.0)
+      turbolinks
+    like_dislike (2.2)
+      acts_as_votable
+      jquery-turbolinks
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -240,6 +247,7 @@ DEPENDENCIES
   devise (~> 4.5)
   haml (~> 5.0)
   jbuilder (~> 2.5)
+  like_dislike (~> 2.2)
   listen (>= 3.0.5, < 3.2)
   masonry-rails (~> 0.2.4)
   paperclip (~> 6.1)
